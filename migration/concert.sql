@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS concerts;
 CREATE TABLE concerts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     band_id INTEGER,
